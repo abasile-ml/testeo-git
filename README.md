@@ -1,2 +1,4 @@
-# testeo-git
-First steps - Git / Github
+# Gaia GSheet Export - API Exportacion de S3 a Google Sheet
+## Casos de uso
+
+## Limitaciones
