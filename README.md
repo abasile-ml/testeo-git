@@ -2,7 +2,7 @@
 
 API Exportacion de S3 a Google Sheet
 
-![alt text](http://url/to/img.png)
+![alt text](https://drive.google.com/file/d/1gQJOcKgGiFeXKlH98nx5_YJvxvGZcvyS/view?usp=sharing)
 
 - [Casos de uso](#casosdeuso)
   - [Limitaciones](#limitaciones)
