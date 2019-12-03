@@ -2,7 +2,7 @@
 
 API Exportacion de S3 a Google Sheet
 
-![alt text](https://drive.google.com/file/d/1gQJOcKgGiFeXKlH98nx5_YJvxvGZcvyS/view?usp=sharing)
+![alt text](https://github.com/abasile-ml/testeo-git/blob/master/img/Screen%20Shot%202019-12-03%20at%2015.23.19.png)
 
 - [Casos de uso](#casosdeuso)
   - [Limitaciones](#limitaciones)
