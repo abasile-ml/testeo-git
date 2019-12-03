@@ -1,6 +1,6 @@
 # Gaia GSheet Export 
 
-## API Exportacion de S3 a Google Sheet
+### API Exportacion de S3 a Google Sheet
 
 La presente API tiene como fin exportar informacion desde S3 e insertara en una hoja de google sheet (preestablecida). El libro cuenta en principio con dos hojas. En una podrá observarse la informacion importada del servidor y en la otra una tabla dinámica la cual se actualizara en base a los datos de la primer hoja.
 
