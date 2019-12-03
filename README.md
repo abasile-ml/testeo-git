@@ -2,7 +2,7 @@
 
 ### API Exportacion de S3 a Google Sheet
 
-(https://www.kunena.org)[![GitHub release]
+[![Build Status](https://travis-ci.org/Bash-it/bash-it.svg?branch=master)](https://travis-ci.org/Bash-it/bash-it) [![Join the chat at https://gitter.im/Bash-it/bash-it](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Bash-it/bash-it?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 La presente API tiene como fin exportar informacion desde S3 e insertara en una hoja de google sheet (preestablecida). El libro cuenta en principio con dos hojas. En una podrá observarse la informacion importada del servidor y en la otra una tabla dinámica la cual se actualizara en base a los datos de la primer hoja.
 
