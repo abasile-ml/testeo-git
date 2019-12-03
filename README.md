@@ -2,7 +2,7 @@
 
 ### API Exportacion de S3 a Google Sheet
 
-[![Support rmansilla](https://github.com/abasile-ml/testeo-git/blob/master/img/Support%20-%20rmansilla-blue.svg)](https://www.google.com/)
+[![Support rmansilla](https://github.com/abasile-ml/testeo-git/blob/master/img/Support%20-%20rmansilla-blue.svg)](https://app.intercom.io/a/apps/avw9yqcm/home)
 
 La presente API tiene como fin exportar informacion desde S3 e insertara en una hoja de google sheet (preestablecida). El libro cuenta en principio con dos hojas. En una podrá observarse la informacion importada del servidor y en la otra una tabla dinámica la cual se actualizara en base a los datos de la primer hoja.
 
