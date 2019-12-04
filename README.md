@@ -20,7 +20,6 @@ width="350">
 
 ## Table of Contents
 
-* [Introduction](#introduction)
 * [Getting started](#getting-started)
   * [Dependencies](#dependencies)
   * [Building from source](#building-from-source)
@@ -28,6 +27,11 @@ width="350">
   * [Running](#running)
 * [Usage](#usage)
   * [Limitations](#limitations)
+  
+## Getting started
+```shell
+$ fury fury get gaia-gsheet-export
+```
   
 ## Usage
 -Exportar informacion desde S3 a Google sheet.
