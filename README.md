@@ -1,18 +1,15 @@
-# Gaia GSheet Export 
-### S3 to GSheet export
-
+<p align="center">An API to export S3 data to google sheet.</p>
 <p align="center">
  <img src="https://img.shields.io/badge/team%20-%20shipping--metrics-green">
 <a href="https://app.intercom.io/a/apps/avw9yqcm/home"><img src="https://img.shields.io/badge/support%20-%20rmansilla-blue"></a>
 <img src="https://img.shields.io/badge/java%20-%20v1.8-orange">
 </p>
 
-The following API exports S3 csv dato to a Google sheet applying format and creating in another sheet a pivot table.
+**Gaia Gsheet export API** aims to help users quickly export data from S3 to a google sheet. To make easy to the user the data reading, an style is applyed to the sheet and a pivot table is created with the same purpose.
 
 ## Table of Contents
 
 * [Introduction](#introduction)
-* [Getting Help](#getting-help)
 * [Getting started](#getting-started)
   * [Dependencies](#dependencies)
   * [Building from source](#building-from-source)
@@ -30,3 +27,6 @@ The following API exports S3 csv dato to a Google sheet applying format and crea
 5000000 celdas en tota
 
 ![alt text](https://github.com/abasile-ml/testeo-git/blob/master/img/Screen%20Shot%202019-12-03%20at%2015.23.19.png)
+
+# Gaia GSheet Export 
+### S3 to GSheet export
