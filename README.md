@@ -22,26 +22,18 @@ width="350">
 
 * [Getting started](#getting-started)
   * [Dependencies](#dependencies)
-  * [Building from source](#building-from-source)
   * [Configuration](#configuration)
-  * [Running](#running)
-* [Usage](#usage)
+* [Uses](#uses)
   * [Limitations](#limitations)
   
 ## Getting started
 ```shell
-$ fury fury get gaia-gsheet-export
+$ fury get gaia-gsheet-export
 ```
   
-## Usage
--Exportar informacion desde S3 a Google sheet.
--Google sheet le da formato a la informacion respetando los distintos tipos de datos.
+## Uses
+-Export information from S3 to Google sheet.
+-Google sheet apply format keeping the data type.
 
-
-## Limitaciones
-5000000 celdas en tota
-
-![alt text](https://github.com/abasile-ml/testeo-git/blob/master/img/Screen%20Shot%202019-12-03%20at%2015.23.19.png)
-
-# Gaia GSheet Export 
-### S3 to GSheet export
+## Limitations
+5000000 rows allow.
