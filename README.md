@@ -2,8 +2,9 @@
 
 ### S3 to GSheet export
 
-[![Support](https://github.com/abasile-ml/testeo-git/blob/master/img/Support%20-%20rmansilla-blue.svg)](https://app.intercom.io/a/apps/avw9yqcm/home)
-![Support](https://img.shields.io/github/languages/count/abasile-ml/testeo-git)
+![team](https://img.shields.io/badge/team%20-%20shipping--metrics-green)
+[![support](https://img.shields.io/badge/support%20-%20rmansilla-blue)](https://app.intercom.io/a/apps/avw9yqcm/home)
+![java-version](https://img.shields.io/badge/java%20-%20v1.8-orange)
 
 The following API exports S3 csv dato to a Google sheet applying format and creating in another sheet a pivot table.
 
