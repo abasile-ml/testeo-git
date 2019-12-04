@@ -1,8 +1,8 @@
 <p align="center">
   <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/logo.png" alt="MELI" width="500">
 </p>
-<p align="center">An API to export S3 data to google sheet.</p>
 <hr>
+<p align="center">An API to export S3 data to google sheet.</p>
 <p align="center">
  <img src="https://img.shields.io/badge/team%20-%20shipping--metrics-green">
 <a href="https://app.intercom.io/a/apps/avw9yqcm/home"><img src="https://img.shields.io/badge/support%20-%20rmansilla-blue"></a>
