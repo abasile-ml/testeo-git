@@ -10,6 +10,13 @@
 
 **Gaia Gsheet export API** aims to help users quickly export data from S3 to a google sheet. To make easy to the user the data reading, an style is applyed to the sheet and a pivot table is created with the same purpose.
 
+<p align="center">
+<img src="https://github.com/abasile-ml/testeo-git/blob/master/img/data.png"
+width="350">
+<img src="https://github.com/abasile-ml/testeo-git/blob/master/img/pivot-table.png"
+width="350">
+</p>
+
 ## Table of Contents
 
 * [Introduction](#introduction)
