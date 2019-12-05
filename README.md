@@ -36,4 +36,5 @@ $ fury get gaia-gsheet-export
 -Google sheet apply format keeping the data type.
 
 ## Limitations
-5000000 rows allow.
+5000000 rows allow(?)
+800000 values.
