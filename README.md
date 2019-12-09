@@ -32,9 +32,9 @@ $ fury get gaia-gsheet-export
 ```
   
 ## Uses
-<p>Export information from S3 to Google sheet.</br>
-Google sheet apply format keeping the data type.</br>
-Create a pivot table.</p>
+<p>#Export information from S3 to Google sheet.</br>
+#Google sheet apply format keeping the data type.</br>
+#Create a pivot table.</p>
 
 ## Limitations
 800000 allow values it can be divided in as many rows as need.
