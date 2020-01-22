@@ -1,0 +1,118 @@
+{
+  "shipment_id": 28177013282,
+  "logistic_type": "drop_off",
+  "handling_time": {
+    "hours": 5.03,
+    "days": 0,
+    "operational_days": 0,
+    "estimated_days": 0,
+    "estimated_working_days": 0,
+    "deviations_days": 0,
+    "deviations_days_type": "on_time",
+    "date_from": "2019-12-02T09:04:37-03:00",
+    "date_until": "2019-12-02T14:06:00-03:00",
+    "non_working_days_in_between": 0,
+    "calculated_using_in_hub": false
+  },
+  "shipping_time": {
+    "hours": 49.37,
+    "days": 2,
+    "estimated_days": 1,
+    "offset_days": 1,
+    "deviation_days": 0,
+    "delay_days": null,
+    "deviation_days_type": "on_time",
+    "date_from": "2019-12-02T14:06:00-03:00",
+    "date_until": "2019-12-04T15:28:00-03:00",
+    "non_working_days_in_between": 0
+  },
+  "lead_time": {
+    "hours": 54.4,
+    "days": 2,
+    "operational_days": 2,
+    "estimated_days": 1,
+    "deviation_days": 0,
+    "deviation_days_type": "on_time",
+    "offset_days": 2,
+    "shipping_offset_days": 1,
+    "date_from": "2019-12-02T09:04:37-03:00",
+    "date_until": "2019-12-04T15:28:00-03:00",
+    "non_working_days_in_between": 0,
+    "calculated_without_handling_time": null
+  },
+  "cross_docking": {
+    "in_hub_hours": null,
+    "in_hub_days": null,
+    "in_hub_days_until_now": null,
+    "in_hub_date": null,
+    "in_hub_on_time_hours": null,
+    "in_hub_in_packing_list_deviation": null,
+    "in_hub_dispatch_deviation": null,
+    "collection_efficiency": null,
+    "collection_shipping": null,
+    "status_picked_up": null,
+    "shp_line_haul_days": null,
+    "shp_last_mile_days": 2,
+    "milk_run_days": null,
+    "milk_run_hours": null
+  },
+  "fulfillment": {
+    "status": null,
+    "last_user": null,
+    "first_checkpoint_date": null,
+    "last_checkpoint_date": null,
+    "invoice_time": null,
+    "invoice_pending_time": null,
+    "outbound_experience": null,
+    "outbound_operational_packed": null,
+    "outbound_operational_shipped": null,
+    "panel_wms_time": null,
+    "warehouse_time_habiles": null,
+    "warehouse_time_corridos": null,
+    "limit_date_to_leave_the_warehouse": null,
+    "deviation_limit_wareshouse_date": null,
+    "unique_state": null,
+    "type": null,
+    "facility": null,
+    "creation_date": null
+  },
+  "stale_time": {
+    "hours": null,
+    "days": null,
+    "hours_until_now": null,
+    "days_until_now": null
+  },
+  "waiting_for_withdrawal_time": {
+    "hours": null,
+    "days": null
+  },
+  "ready_for_pick_up_time": {
+    "hours": null,
+    "days": null
+  },
+  "efficiency_operation": 4,
+  "first_visit_history": {
+    "date_first_visit": "2019-12-04T15:28:00-03:00",
+    "date_second_visit": null,
+    "date_third_visit": null,
+    "date_delivered": "2019-12-04T15:28:00-03:00",
+    "successful_visit": "first"
+  },
+  "etd_data": {
+    "date": null,
+    "hour": null,
+    "deviation_type": null,
+    "deviation_minutes": null
+  },
+  "error_list": {
+    "shipment_error": false,
+    "service_id_error": false,
+    "status_history_error": false,
+    "checkpoints_error": false,
+    "carrier_id_error": false,
+    "handling_inconsistency_error": false,
+    "in_hub_before_picked_up": false,
+    "wms_checkpoints_error": false
+  },
+  "metrics_version": "1.17.31"
+}
