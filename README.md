@@ -12,10 +12,7 @@
 **Gaia Gsheet Export** aims to help users quickly export data from S3 to a google sheet. This functionality is available in Gaia as an executable step allowing to convine this step with any needed.
 
 <p align="center">
-<img src="https://github.com/abasile-ml/testeo-git/blob/master/img/data.png"
-width="350">
-<img src="https://github.com/abasile-ml/testeo-git/blob/master/img/pivot-table.png"
-width="350">
+     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/cover.png" height="350">
 </p>
 
 ## Table of Contents
@@ -40,7 +37,7 @@ $ fury get gaia-gsheet-export
 To execute the step a serie of parameters from the S3 bucket and the Google Sheet spreadsheet are required by Gaia.
 ### Spreadsheet parameters
 Once the spreadsheet has been selected is necessary to set the following configuration to the correct Gaia step execution:
-1. Share the spreadsheet with the following email address <a>shipping-metrics@shipping-metrics.iam.gserviceaccount.com</a>
+1. Share the spreadsheet with the following email address: <a>shipping-metrics@shipping-metrics.iam.gserviceaccount.com</a>.
 2. Set "Can edit" in the sharing settings.
 <p align="center">
      <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/spreadsheet.gif" alt="spreadsheet" width="600">
