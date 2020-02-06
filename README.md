@@ -43,7 +43,7 @@ Once the spreadsheet has been selected is necessary to set the following configu
 1. Share the spreadsheet with the following email address.
 2. Set "Can edit" in the sharing settings.
 <p align="center">
-     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/spreadsheet.gif" alt="spreadsheet" width="360">
+     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/spreadsheet.gif" alt="spreadsheet" width="500">
 </p>
 
 
