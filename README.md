@@ -12,7 +12,7 @@
 **Gaia Gsheet Export** aims to help users quickly export data from S3 to a google sheet. This functionality is available in Gaia as an executable step allowing to convine this step with any needed.
 
 <p align="center">
-     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/cover.png">
+     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/cover.png" width="350">
 </p>
 
 ## Table of Contents
