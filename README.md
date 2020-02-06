@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/logo.png" alt="MELI" width="500">
 </p>
-<p align="center">An API to export S3 data to google sheet.</p>
+<p align="center">A GAIA step to export S3 data to google sheet.</p>
 <hr>
 <p align="center">
  <img src="https://img.shields.io/badge/team%20-%20shipping--metrics-green">
@@ -9,7 +9,7 @@
 <img src="https://img.shields.io/badge/java%20-%20v1.8-orange">
 </p>
 
-**Gaia Gsheet export API** aims to help users quickly export data from S3 to a google sheet. This functionality is available in Gaia as an executable step allowing to convine this step with any needed.
+**Gaia Gsheet Export** aims to help users quickly export data from S3 to a google sheet. This functionality is available in Gaia as an executable step allowing to convine this step with any needed.
 
 <p align="center">
 <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/data.png"
