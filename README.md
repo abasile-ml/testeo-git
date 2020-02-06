@@ -40,7 +40,7 @@ $ fury get gaia-gsheet-export
 To execute the step a serie of parameters from the S3 bucket and the Google Sheet spreadsheet are required by Gaia.
 ### Spreadsheet parameters
 Once the spreadsheet has been selected is necessary to set the following configuration to the correct Gaia step execution:
-1. Share the spreadsheet with the following email address.
+1. Share the spreadsheet with the following email address <a>shipping-metrics@shipping-metrics.iam.gserviceaccount.com</a>
 2. Set "Can edit" in the sharing settings.
 <p align="center">
      <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/spreadsheet.gif" alt="spreadsheet" width="600">
