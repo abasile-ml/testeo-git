@@ -42,9 +42,9 @@ To execute the step a serie of parameters from the S3 bucket and the Google Shee
 Once the spreadsheet has been selected is necessary to set the following configuration to the correct Gaia step execution:
 1. Share the spreadsheet with the following email address.
 2. Set "Can edit" in the sharing settings.
-<img src="https://github.com/abasile-ml/testeo-git/blob/master/img/spreadsheet.gif" alt="spreadsheet">
-
-
+<p align="center">
+     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/spreadsheet.gif" alt="spreadsheet" width="360">
+</p>
 
 
 ## Limitations
