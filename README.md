@@ -25,16 +25,21 @@ width="350">
   * [Configuration](#configuration)
 * [Uses](#uses)
   * [Limitations](#limitations)
-  
+
 ## Getting started
 ```shell
 $ fury get gaia-gsheet-export
 ```
-  
+
 ## Uses
 <p>#Export information from S3 to Google sheet.</br>
 #Google sheet apply format keeping the data type.</br>
 #Create a pivot table.</p>
+
+## Requirements
+To execute the step a serie of parameters from the S3 bucket and the Google Sheet spreadsheet are required by Gaia.
+### Spreadsheet parameters
+
 
 ## Limitations
 800000 allow values it can be divided in as many rows as need.
