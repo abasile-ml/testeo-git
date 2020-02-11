@@ -27,11 +27,27 @@
 ### Permissions
 The step execution will be done from Gaia. To access to Gaia is necessary request the user register and the steps taht will be used. This request have to be done from...
 
-## Gaia access
+### Gaia access
 Once the user is registered, it could login to Gaia through http://gaia.ml.com/ where the step will be executed.
 <p align="center">
-     <img src="img/gaia-login.png" width="650">
+     <img src="img/gaia-login.png" width="600">
 </p>
+
+### Gaia home screen
+After login to Gaia the following screen will be shown.
+<p align="center">
+     <img src="img/gaia-login.png" width="600">
+</p>
+
+## Gaia configuration
+Whit the selected steps is necessary to set up the parameters to execute the job.
+
+### Common
+Inside this section will be configured the job common parameters.
+Name: Job name.
+Group: The group refers to the folder where the job will be created. In case of having no group yet, is recommended to create one with the team name. There will be storaged all the jobs.
+Commentaries: Any necessary commentary.
+Sandbox: (?)
 
 ## Uses
 <p>#Export information from S3 to Google sheet.</br>
@@ -46,7 +62,7 @@ Once the spreadsheet has been selected is necessary to set the following configu
 1. Share the spreadsheet with the following email address: <a>shipping-metrics@shipping-metrics.iam.gserviceaccount.com</a>.
 2. Set "Can edit" in the sharing settings.
 <p align="center">
-     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/spreadsheet.gif" alt="spreadsheet" width="600">
+     <img src="img/spreadsheet.gif" alt="spreadsheet" width="600">
 </p>
 
 Values required:
