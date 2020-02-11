@@ -33,11 +33,12 @@ Once the user is registered, it could login to Gaia through http://gaia.ml.com/ 
      <img src="img/gaia-login.png" width="600">
 </p>
 
-### Gaia home screen
+### Inside Gaia
 After login to Gaia the following screen will be shown.
 <p align="center">
-     <img src="img/gaia-login.png" width="600">
+     <img src="img/gaia-home.png" width="600">
 </p>
+The option "Jobs"
 
 ## Gaia configuration
 Whit the selected steps is necessary to set up the parameters to execute the job.
@@ -49,15 +50,7 @@ Group: The group refers to the folder where the job will be created. In case of 
 Commentaries: Any necessary commentary.
 Sandbox: (?)
 
-## Uses
-<p>#Export information from S3 to Google sheet.</br>
-#Google sheet apply format keeping the data type.</br>
-#Create a pivot table.</p>
-
-## Requirements
-To execute the step a serie of parameters from the S3 bucket and the Google Sheet spreadsheet are required by GAIA.
-
-### Spreadsheet parameters
+## Spreadsheet parameters
 Once the spreadsheet has been selected is necessary to set the following configuration to the correct Gaia step execution:
 1. Share the spreadsheet with the following email address: <a>shipping-metrics@shipping-metrics.iam.gserviceaccount.com</a>.
 2. Set "Can edit" in the sharing settings.
