@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/logo.png" alt="MELI" width="500">
+  <img src="img/logo.png" alt="MELI" width="500">
 </p>
 <p align="center">A GAIA job to export S3 data to google sheet.</p>
 <hr>
@@ -12,7 +12,7 @@
 **Gaia Gsheet Export** aims to help users quickly export data from S3 to a spreadsheet. This functionality is available in Gaia as an executable job allowing to convine this one with any needed.
 
 <p align="center">
-     <img src="https://github.com/abasile-ml/testeo-git/blob/master/img/cover.png" width="650">
+     <img src="img/cover.png" width="650">
 </p>
 
 ## Table of Contents
@@ -24,15 +24,14 @@
   * [Limitations](#limitations)
 
 ## Getting started
-Permissions
-The step execution will be done from Gaia. To access to Gaia is necessary 
+### Permissions
+The step execution will be done from Gaia. To access to Gaia is necessary request the user register and the steps taht will be used. This request have to be done from...
 
-
-
-#### Local
-```shell
-$ fury get gaia-gsheet-export
-```
+## Gaia access
+Once the user is registered, it could login to Gaia through http://gaia.ml.com/ where the step will be executed.
+<p align="center">
+     <img src="img/gaia-login.png" width="650">
+</p>
 
 ## Uses
 <p>#Export information from S3 to Google sheet.</br>
@@ -57,6 +56,11 @@ Kind of export:
   APPEND: Append the new values to the current sheet.
   OVERWRITE: Erase the sheet and write the imported values.
 
+## Developers
+#### Local run
+```shell
+$ fury get gaia-gsheet-export
+```
 
 ## Limitations
 800000 allow values it can be divided in as many rows as need.
