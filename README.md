@@ -1,75 +1,106 @@
-<p align="center">
-  <img src="img/logo.png" alt="MELI" width="500">
-</p>
-<p align="center">A GAIA job to export S3 data to google sheet.</p>
-<hr>
-<p align="center">
- <img src="https://img.shields.io/badge/team%20-%20shipping--metrics-green">
-<a href="https://app.intercom.io/a/apps/avw9yqcm/home"><img src="https://img.shields.io/badge/support%20-%20rmansilla-blue"></a>
-<img src="https://img.shields.io/badge/java%20-%20v1.8-orange">
-</p>
+<details open>
+<summary>Want to ruin the surprise?</summary>
+<br>
+**Show User**
+----
+  Returns json data about a single user.
 
-**Gaia Gsheet Export** aims to help users quickly export data from S3 to a spreadsheet. This functionality is available in Gaia as an executable job allowing to convine this one with any needed.
+* **URL**
 
-<p align="center">
-     <img src="img/cover.png" width="650">
-</p>
+  /users/:id
 
-## Table of Contents
+* **Method:**
 
-* [Getting started](#getting-started)
-  * [Dependencies](#dependencies)
-  * [Configuration](#configuration)
-* [Uses](#uses)
-  * [Limitations](#limitations)
+  `GET`
+  
+*  **URL Params**
 
-## Getting started
-### Permissions
-The step execution will be done from Gaia. To access to Gaia is necessary request the user register and the steps taht will be used. This request have to be done from...
+   **Required:**
+ 
+   `id=[integer]`
 
-### Gaia access
-Once the user is registered, it could login to Gaia through http://gaia.ml.com/ where the step will be executed.
-<p align="center">
-     <img src="img/gaia-login.png" width="600">
-</p>
+* **Data Params**
 
-### Inside Gaia
-After login to Gaia the following screen will be shown.
-<p align="center">
-     <img src="img/gaia-home.png" width="600">
-</p>
-The option "Jobs"
+  None
 
-## Gaia configuration
-Whit the selected steps is necessary to set up the parameters to execute the job.
+* **Success Response:**
 
-### Common
-Inside this section will be configured the job common parameters.
-Name: Job name.
-Group: The group refers to the folder where the job will be created. In case of having no group yet, is recommended to create one with the team name. There will be storaged all the jobs.
-Commentaries: Any necessary commentary.
-Sandbox: (?)
+  * **Code:** 200 <br />
+    **Content:** `{ id : 12, name : "Michael Bloom" }`
+ 
+* **Error Response:**
 
-## Spreadsheet parameters
-Once the spreadsheet has been selected is necessary to set the following configuration to the correct Gaia step execution:
-1. Share the spreadsheet with the following email address: <a>shipping-metrics@shipping-metrics.iam.gserviceaccount.com</a>.
-2. Set "Can edit" in the sharing settings.
-<p align="center">
-     <img src="img/spreadsheet.gif" alt="spreadsheet" width="600">
-</p>
+  * **Code:** 404 NOT FOUND <br />
+    **Content:** `{ error : "User doesn't exist" }`
 
-Values required:
-Spreadsheet ID
-Sheet name
-Kind of export:
-  APPEND: Append the new values to the current sheet.
-  OVERWRITE: Erase the sheet and write the imported values.
+  OR
 
-## Developers
-#### Local run
-```shell
-$ fury get gaia-gsheet-export
-```
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `{ error : "You are unauthorized to make this request." }`
 
-## Limitations
-800000 allow values it can be divided in as many rows as need.
+* **Sample Call:**
+
+  ```javascript
+    $.ajax({
+      url: "/users/1",
+      dataType: "json",
+      type : "GET",
+      success : function(r) {
+        console.log(r);
+      }
+    });
+  ```
+</details>
+<details open>
+<summary>Want to ruin the surprise?</summary>
+<br>
+**Show User**
+----
+  Returns json data about a single user.
+
+* **URL**
+
+  /users/:id
+
+* **Method:**
+
+  `GET`
+  
+*  **URL Params**
+
+   **Required:**
+ 
+   `id=[integer]`
+
+* **Data Params**
+
+  None
+
+* **Success Response:**
+
+  * **Code:** 200 <br />
+    **Content:** `{ id : 12, name : "Michael Bloom" }`
+ 
+* **Error Response:**
+
+  * **Code:** 404 NOT FOUND <br />
+    **Content:** `{ error : "User doesn't exist" }`
+
+  OR
+
+  * **Code:** 401 UNAUTHORIZED <br />
+    **Content:** `{ error : "You are unauthorized to make this request." }`
+
+* **Sample Call:**
+
+  ```javascript
+    $.ajax({
+      url: "/users/1",
+      dataType: "json",
+      type : "GET",
+      success : function(r) {
+        console.log(r);
+      }
+    });
+  ```
+</details>
