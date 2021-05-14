@@ -1,17 +1,15 @@
 <details open>
-<summary>Want to ruin the surprise?</summary>
+<summary>**Create New Query**</summary>
 <br>
-**Show User**
-----
-  Returns json data about a single user.
+  Store query configuration creating a new entry.
 
 * **URL**
 
-  /users/:id
+  /shipping-metrics-get-api/queries
 
 * **Method:**
 
-  `GET`
+  `POST`
   
 *  **URL Params**
 
@@ -19,9 +17,21 @@
  
    `id=[integer]`
 
-* **Data Params**
 
-  None
+* **Sample Post:**
+
+  ```json
+    {	
+	"id": "1",
+	"type": "bigquery",
+	"description": "Test",
+	"status": "enable",
+	"response_type": "json",
+	"sql_query": "SELECT METRICS_AUDIT.CALCULATOR_CONTROLLER FROM `meli-bi-data.SHIPPING_BI.BT_SHP_MT_CALCULATOR_CONTROLLER` WHERE DATE(AUD_INS_DTTM) = \"2021-05-07\" LIMIT 10",
+	"created_at": "2021-05-07T03:46:34.615866",
+	"created_by": "abasile"
+}
+  ```
 
 * **Success Response:**
 
@@ -38,18 +48,6 @@
   * **Code:** 401 UNAUTHORIZED <br />
     **Content:** `{ error : "You are unauthorized to make this request." }`
 
-* **Sample Call:**
-
-  ```javascript
-    $.ajax({
-      url: "/users/1",
-      dataType: "json",
-      type : "GET",
-      success : function(r) {
-        console.log(r);
-      }
-    });
-  ```
 </details>
 <details open>
 <summary>Want to ruin the surprise?</summary>
